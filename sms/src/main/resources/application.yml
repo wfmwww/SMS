@@ -1,0 +1,22 @@
+server:
+  port: 8090
+
+#阿里短信验证码
+sms:
+  #连接Key
+  accessKeyId: LTAIxNn4ikypYax9
+  #连接Secret
+  accessKeySecret: HUuLB117qCY9xBgMuvncpChM1mGZws
+  #模板
+  templateCode: SM_197895260
+  #签名
+  signName: 萌漫
+  #短信产品域名
+  domain: dysmsapi.aliyuncs.com
+  #版本-固定值
+  version: 2017-05-25
+  #地区-默认即可
+  regionId: default
+  #阿里系统规定参数
+  action: SendSms
+
